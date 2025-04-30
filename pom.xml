@@ -6,15 +6,15 @@
 
   <groupId>org.artifactory</groupId>
   <artifactId>firstpack</artifactId>
-  <version>1.7</version>
+  <version>1.8</version>
 
 
   <distributionManagement>
-  <repository>
-    <id>github</id>
-    <name>GitHub Maven Packages</name>
-    <url>https://maven.pkg.github.com/BogdanLinnik/ss_devops_2_12_1</url>
-  </repository>
+    <repository>
+      <id>github</id>
+      <name>GitHub Maven Packages</name>
+      <url>https://maven.pkg.github.com/BogdanLinnik/ss_devops_2_12_1</url>
+    </repository>
   </distributionManagement>
 
   <properties>
@@ -26,7 +26,7 @@
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <artifactId>junit</artifactId> 
       <version>4.11</version>
       <scope>test</scope>
     </dependency>
